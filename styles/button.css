@@ -1,0 +1,22 @@
+button,input[type="button"]{
+  display:block;              /*ブロックボックスとして表示*/
+  margin:0 auto;              /*ボタンを画面の中央に表示*/
+  background:#ffffff;         /*ボタンの背景を白に*/
+  text-decoration:none;       /*文字に下線を付けない*/
+  height:35px;                /*ボタンの高さ指定*/
+  width:auto;                /*ボタンの幅の指定*/
+  line-height:37px;           /*行の高さの指定*/
+  text-align:center;          /*文字を中央揃えに*/
+  align-items:center;
+  color:#000000;              /*文字の色をブラックに*/
+  font-weight:bold;
+  font-size:large;
+  border:solid 2px; #000000;  /*１本の実線、太さ2px、色はブラックに*/
+  border-radius:20px;         /*ボタンの角を丸める（20pxで）*/
+  transition:0.3s;            /*0.3秒で変化する*/
+}
+
+button,input[type="button"]:hover{                 /*ボタンにカーソルが重なった時、*/
+  background:#a9a9a9;         /*背景をダークグレーに*/
+  color:#ffffff;              /*文字の色を白に*/
+}
